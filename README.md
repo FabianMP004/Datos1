@@ -54,8 +54,7 @@ Finalmente, elimina las tablas temporales `prestamo` y `pagos_realizados` ejecut
 - [script.py](./Proyecto1/script.py)
 - [create-tablas.sql](./Proyecto1/create-tablas.sql)
 - [insert-proyecto1.sql](./Proyecto1/insert-proyecto1.sql)
-- [prestamo.xlsx](./Proyecto1/prestamo.xlsx)
-- [pagos_realizados.xlsx](./Proyecto1/pagos_realizados.xlsx)
+
 
 
 
