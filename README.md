@@ -45,13 +45,13 @@ Ejecuta el script "insert-proyecto1.sql" en DataGrip para insertar los datos en 
 Finalmente, elimina las tablas temporales prestamos y pagos_realizados ejecutando el siguiente comando en DataGrip:
 
 -- DROP TABLE IF EXISTS prestamos;
+
 -- DROP TABLE IF EXISTS pagos_realizados;
 
-### Enlaces a los Archivos
 
 ## Enlaces a los Archivos
 
-- script.py
+- [script.py](./Proyecto1/script.py)
 - create-tablas.sql
 - insert-proyecto1.sql
 - prestamo.xlsx
