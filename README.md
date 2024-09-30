@@ -30,19 +30,19 @@ Abre DataGrip y configura una nueva conexión a la base de datos utilizando los 
 
 ### 3. Ejecutar el Script de Python
 
-Ejecuta el script "script.py" para cargar los datos desde los archivos Excel a la base de datos. Asegúrate de tener las librerías necesarias instaladas:
+Ejecuta el script `script.py` para cargar los datos desde los archivos Excel a la base de datos. Asegúrate de tener las librerías necesarias instaladas:
 
 ### 4. Crear las Tablas
 
-Ejecuta el script "create-tablas.sql" en DataGrip para crear las tablas necesarias en el esquema proyecto1.
+Ejecuta el script `create-tablas.sql` en DataGrip para crear las tablas necesarias en el esquema proyecto1.
 
 ### 5. Insertar los Datos
 
-Ejecuta el script "insert-proyecto1.sql" en DataGrip para insertar los datos en las tablas correspondientes.
+Ejecuta el script `insert-proyecto1.sql` en DataGrip para insertar los datos en las tablas correspondientes.
 
 ### 6. Eliminar Tablas Temporales
 
-Finalmente, elimina las tablas temporales prestamos y pagos_realizados ejecutando el siguiente comando en DataGrip:
+Finalmente, elimina las tablas temporales `prestamo.xlsx` y `pagos_realizados.xlsx` ejecutando el siguiente comando en DataGrip:
 
 -- DROP TABLE IF EXISTS prestamos;
 
@@ -52,9 +52,10 @@ Finalmente, elimina las tablas temporales prestamos y pagos_realizados ejecutand
 ## Enlaces a los Archivos
 
 - [script.py](./Proyecto1/script.py)
-- create-tablas.sql
-- insert-proyecto1.sql
-- prestamo.xlsx
-- pagos_realizados.xlsx
+- [create-tablas.sql](./Proyecto1/create-tablas.sql)
+- [insert-proyecto1.sql](./Proyecto1/insert-proyecto1.sql)
+- [prestamo.xlsx](./Proyecto1/prestamo.xlsx)
+- [pagos_realizados.xlsx](./Proyecto1/pagos_realizados.xlsx)
+
 
 
