@@ -10,6 +10,6 @@ with engine.begin() as cursor:
     df.to_sql('pagos_realizados', schema='proyecto1', con=cursor, if_exists='replace')
 
 # Leer el otro archivo Excel
-dfe = pd.read_excel('prestamos.xlsx')
-with engine.begin() as cursor:
-    dfe.to_sql('prestamos', schema='proyecto1', con=cursor, if_exists='replace')
+#dfe = pd.read_excel('prestamos.xlsx')
+#with engine.begin() as cursor:
+    #dfe.to_sql('prestamos', schema='proyecto1', con=cursor, if_exists='replace')
