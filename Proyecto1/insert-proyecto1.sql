@@ -31,9 +31,6 @@ SELECT
 FROM
     prestamos;
 
-ALTER TABLE proyecto1.DETALLE_CLIENTE
-    ALTER COLUMN ocupacion SET DATA TYPE VARCHAR(250);
-
 -- 2. Insert data into proyecto1.DETALLE_CLIENTE table
 INSERT INTO proyecto1.detalle_cliente (
     user_id,
@@ -49,8 +46,6 @@ SELECT
 FROM
     prestamos;
 
-ALTER TABLE proyecto1.direccion
-    ALTER COLUMN vecindad SET DATA TYPE VARCHAR(250);
 
 -- 3. Insert data into proyecto1.DIRECCION table
 INSERT INTO proyecto1.DIRECCION (
@@ -76,9 +71,6 @@ SELECT DISTINCT
 FROM
     prestamos;
 
-SELECT *
-FROM proyecto1.ESTADO_PRESTAMO
-LIMIT 10;
 
 
 -- 5. Insert data into proyecto1.PRESTAMO table
@@ -153,8 +145,6 @@ WHERE
 
 
 -- 7. Insert data into proyecto1.REFERENCIA table
-
-CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 CREATE SEQUENCE proyecto1.referencia_id_seq
     START WITH 1
