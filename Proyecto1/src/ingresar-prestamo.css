@@ -1,0 +1,81 @@
+/* Contenedor general para centrar el contenido */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Hace que ocupe el 100% del alto de la pantalla */
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* Estilos específicos para la sección del formulario */
+.form-section {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: max-content;
+  padding: 50px;
+  margin: auto;
+}
+
+.modal-overlay {
+  width: 750px;
+  padding: 50px;
+  margin: auto;
+}
+
+/* Estilos para el botón */
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Mejora la visualización de los grupos de formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Extra para pantallas pequeñas */
+@media (max-width: 600px) {
+  .form-section {
+    padding: 20px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
