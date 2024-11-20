@@ -1,13 +1,28 @@
+/* Eliminar márgenes y padding del body para que el header esté pegado a la parte superior */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ajustar el header para ocupar toda la anchura sin espacio en la parte superior */
+header {
+  text-align: center;
+  background-color: #0056b3; /* color de fondo azul */
+  color: white;
+  padding: 15px 0; /* Ajusta el padding superior e inferior */
+  margin: 0;
+}
+
+/* Ajustar el contenedor principal */
 .ingreso-pago-container {
-  margin: 20px;
   font-family: Arial, sans-serif;
 }
 
-header {
-  text-align: center;
-  margin-bottom: 20px;
+.prestamo-form {
+  margin: 30px;
 }
 
+/* Agregar borde al cuadro de detalles */
 .loan-details,
 .payment-form {
   margin: 20px 0;

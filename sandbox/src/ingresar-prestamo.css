@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Hace que ocupe el 100% del alto de la pantalla */
+  min-height: 100vh;
   background-color: #f7f7f7;
   padding: 20px;
 }
